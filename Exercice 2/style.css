@@ -1,0 +1,4 @@
+#age_personne_span,#nom_personne_span,#email_personne_span{
+    display: none;
+    color: red;
+}

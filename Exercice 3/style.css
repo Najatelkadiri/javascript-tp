@@ -1,0 +1,84 @@
+:root {
+    --primary: #2563eb;
+    --bg: #f1f5f9;
+    --card-bg: #ffffff;
+    --text-main: #1e293b;
+    --text-soft: #64748b;
+}
+
+/* Background */
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--bg);
+    margin: 0;
+    padding: 2rem;
+    color: var(--text-main);
+}
+
+/* Layout */
+.app-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+}
+
+/* Floating Form */
+.form-box {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    height: fit-content;
+}
+
+/* Cards Grid */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Card */
+.card-item {
+    background: var(--card-bg);
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.card-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(37,99,235,0.15);
+}
+
+/* Title */
+.page-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+/* Form */
+.form-control {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+    border: 1px solid #cbd5e1;
+    margin-bottom: 1rem;
+}
+
+.btn-add {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 1rem;
+    background: var(--primary);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    opacity: 0.9;
+}
