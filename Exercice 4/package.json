@@ -1,0 +1,29 @@
+{
+  "name": "express-systeme-gestion-bibliotheque",
+  "version": "1.0.0",
+  "description": "Conception et développement d’un système de gestion de bibliothèque basé sur Express.js, respectant les principes REST et les bonnes pratiques d’architecture backend (routing modulaire, controllers, gestion centralisée des erreurs et structuration du code).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saidouchrif/express-systeme-gestion-bibliotheque.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Saidouchrif/express-systeme-gestion-bibliotheque/issues"
+  },
+  "homepage": "https://github.com/Saidouchrif/express-systeme-gestion-bibliotheque#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
